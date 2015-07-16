@@ -23,4 +23,5 @@ module.exports = function(){
     require('./strategies/local')();
     require('./strategies/facebook')();
     require('./strategies/twitter')();
+    require('./strategies/google')();
 };
